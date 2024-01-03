@@ -1,0 +1,38 @@
+.todo_form{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo_form input{
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+}
+.todo_form button{
+    background-color: #0084f5;
+    height: 40px;
+    width: 15%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+ul,li{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.clearCompletedButton {
+    margin-top: 10px;
+}
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item button{
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    color: rgb(169, 166, 166);
+}

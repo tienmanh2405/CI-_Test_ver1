@@ -1,0 +1,24 @@
+.formpage{
+    width: 500px;
+    margin: 0 auto;
+}
+.typeButton button{
+    width: 33%;
+    background-color: #fff;
+    border: none;
+}
+.typeButton button.active{
+    border-bottom: 2px solid #0084f5;
+}
+.typeButton{
+    border-bottom: 2px solid rgb(222, 221, 221);
+}
+.button_clear{
+    background-color: red;
+    height: 30px;
+    width: 150px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 350px;
+}
